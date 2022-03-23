@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet"  type="text/css" href="assets/css/style.css">
+    <title>Validador de Formulário</title>
+
+</head>
+<body>
+    
+    <main>
+        <article>
+            <div class="areaSignUp">
+                <div class="areaImage">
+                    <img src="assets/images/bg-image.png" alt="Image Background">
+                </div>
+                <div class="signUp">
+                    <h2>Começar</h2>
+                    <p>Já tem uma conta? <a href="" title="Entrar">Entrar</a></p>
+                    <form action="">
+                        <label for="">
+                            Nome <br>
+                            <input type="text" name="name" placeholder="Digite seu nome" data-rules="required/min=2">
+                        </label>
+                        <label for="">
+                            Email <br>
+                            <input type="email" name="email" placeholder="Digite seu email" data-rules="required/email">
+                        </label>
+                        <label for="">
+                            Senha <br>
+                            <input type="password" name="password" placeholder="Crie uma senha" data-rules="required/min=8">
+                        </label>
+                        <button>Cadastrar</button>
+                    </form>
+                    <p class="connectWith">Ou entre com</p>
+                    <div class="areaSocials">
+                        <a href="" class="icon" title="Conectar com google"><img src="assets/images/google.png" alt="Logo Google"></a>
+                        <a href="" class="icon" title="Conectar com twitter"><img src="assets/images/twitter.png" alt="Logo Twitter"></a>
+                        <a href="" class="icon" title="Conectar com facebook"><img src="assets/images/facebook.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
