@@ -1,4 +1,13 @@
-let B7Validator = {
+// Prevenindo clique de botões
+let login = document.querySelectorAll('.signUp p a, .areaSocials a');
+login.forEach((item) => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault();
+    })
+})
+
+// Função validadora 
+let Validator = {
     handleSubmit: (event) => {
         event.preventDefault();
 
@@ -6,14 +15,14 @@ let B7Validator = {
 
         let inputs = document.querySelectorAll('input');
 
-        B7Validator.clearErrors();
+        Validator.clearErrors();
 
         for (let i = 0; i < inputs.length; i++) {
             let input = inputs[i];
-            let check = B7Validator.checkInput(input);
+            let check = Validator.checkInput(input);
             if (check !== true) {
                 send = false;
-                B7Validator.showError(input, check);
+                Validator.showError(input, check);
             }
         }
         if (send) {
@@ -64,6 +73,7 @@ let B7Validator = {
 
 }
 
+// Ao enviar o formulário, chama a função que valida os campos
 let form = document.querySelector('form');
-form.addEventListener('submit', B7Validator.handleSubmit);
+form.addEventListener('submit', Validator.handleSubmit);
 
