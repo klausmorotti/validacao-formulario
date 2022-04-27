@@ -7,6 +7,7 @@
     box-sizing:border-box;
     font-family:'Poppins';
 }
+/* PÁGINA PRINCIPAL */
 main {
     min-height:100vh;
     background-color:#F8F8FF;
@@ -173,4 +174,34 @@ article {
     .signUp p {
         font-size:15px;
     }
+}
+
+/* PÁGINA CADASTRO REALIZADO */
+.sucessfully {
+    padding:30px;
+    width:500px;
+    height:400px;
+    box-shadow:3px 3px 15px #CCC;
+    border-radius:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sucessfully img {
+    max-width:70px;
+}
+.sucessfully h3 {
+    margin-top:20px;
+    letter-spacing:2px;
+}
+.sucessfully p {
+    margin-top:40px;
+}
+.sucessfully a {
+    margin-top:30px;
+    text-decoration:none;
+    color:#FFF;
+    background-color:#B0EF8F;
+    padding:10px 40px;
+    border-radius:20px;
 }
