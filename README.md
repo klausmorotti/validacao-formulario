@@ -55,3 +55,5 @@ O site tem no total 2 páginas, sendo elas
 ## 📝 Licença
 
 Este projeto está sob licença. Consulte o arquivo <a href="https://github.com/klausmorotti/validacao-formulario/blob/master/LICENSE">LICENSE</a> para obter mais detalhes.
+
+<a href="#top">Volte para o topo</a>
