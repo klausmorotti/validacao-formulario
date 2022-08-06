@@ -1,4 +1,9 @@
-# VALIDADOR DE FORMULÁRIO
+<h1 align="center">VALIDADOR DE FORMULÁRIO</h1>
+
+<img src="assets/images/formulario-gif.gif" alt="Video Projeto" width="100%" height="500">
+
+> 🔎 Um Formulário de contato com validação JavaScript para que sejam enviadas apenas informações válidas. <br>
+🗔 Confira a aplicação: https://klausmorotti.github.io/validacao-formulario/ <br>
 
 ## 📄 Explicação
 
@@ -10,6 +15,13 @@ A página contém os recursos:
 * Validação JavaScript para validar se o campo contém um email
 * Validação JavaScript para verificar se o campo de senha há no mínimo 8 caracteres
 * Página de confirmação de login feito com sucesso caso passe pela validação
+
+## 📁 Páginas
+
+O site tem no total 2 páginas, sendo elas
+
+- **Página principal:** A página principal que exibe todo nosso formulário com a validação
+- **Página de confirmação:** A página onde retorna uma resposta sobre o formulário enviado com sucesso.
 
 ## 🎯 Etapas do projeto
 
