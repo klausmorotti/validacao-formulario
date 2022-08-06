@@ -11,26 +11,26 @@ O projeto validador de formulário consiste em um formulário com uma validaçã
 
 A página contém os recursos:
 
-* Validação JavaScript para quantidade mínima de caracteres
-* Validação JavaScript para validar se o campo contém um email
-* Validação JavaScript para verificar se o campo de senha há no mínimo 8 caracteres
-* Página de confirmação de login feito com sucesso caso passe pela validação
+* Validação JavaScript para quantidade mínima de caracteres.
+* Validação JavaScript para validar se o campo contém um email.
+* Validação JavaScript para verificar se o campo de senha há no mínimo 8 caracteres.
+* Página de confirmação de login feito com sucesso caso passe pela validação.
 
 ## 📁 Páginas
 
 O site tem no total 2 páginas, sendo elas
 
-- **Página principal:** A página principal que exibe todo nosso formulário com a validação
+- **Página principal:** A página principal que exibe todo nosso formulário com a validação.
 - **Página de confirmação:** A página onde retorna uma resposta sobre o formulário enviado com sucesso.
 
 ## 🎯 Etapas do projeto
 
-✔️ Criando a interface do projeto </br>
-✔️ Decidindo quais as validações seriam feitas </br>
-✔️ Planejando lógica utilizada para validação com JavaScript puro </br>
-✔️ Implementação da lógica desenvolvida para validação </br>
-✔️ Responsivizando projeto </br>
-✔️ Criando página de "login feito com sucesso"
+✔️ Criando a interface do projeto. </br>
+✔️ Decidindo quais as validações seriam feitas. </br>
+✔️ Planejando lógica utilizada para validação com JavaScript puro. </br>
+✔️ Implementação da lógica desenvolvida para validação. </br>
+✔️ Responsivizando projeto. </br>
+✔️ Criando página de "login feito com sucesso".
 
 ## 🚀 Tecnologias
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>
