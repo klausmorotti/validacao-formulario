@@ -30,8 +30,8 @@ O site tem no total 2 páginas, sendo elas
 ✔️ Planejando lógica utilizada para validação com JavaScript puro. </br>
 ✔️ Implementação da lógica desenvolvida para validação. </br>
 ✔️ Responsivizando projeto. </br>
-✔️ Criando página de "login feito com sucesso".
-✔️ Projeto Finalizado. </br>
+✔️ Criando página de "login feito com sucesso". </br>
+✔️ Projeto Finalizado.
 
 ## 🚀 Tecnologias
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>
